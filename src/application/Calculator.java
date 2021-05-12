@@ -39,7 +39,7 @@ public class Calculator {
 		}
 		sc.close();
 	}
-
+//Methods
 	public static void negative(double value) {
 		if (value <0) 
 			throw new InputMismatchException();		
