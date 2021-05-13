@@ -31,7 +31,7 @@ public class Calculator {
 		}
 		
 		System.out.println();
-		System.out.printf("Com esse investimento é possível alcançar aproximadamente: %.0f pessoas no máximo.",totalViews);
+		System.out.printf("Com esse investimento é possível alcançar, no máximo, %.0f pessoas aproximadamente.",totalViews);
 		}
 		catch (InputMismatchException e) {
 			System.out.println("Valor inválido!");
